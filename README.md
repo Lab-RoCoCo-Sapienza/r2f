@@ -20,7 +20,7 @@
   
   <div align="center">
 
-  [![flat](https://img.shields.io/badge/Website-SOON-blue)]() 
+  [![flat](https://img.shields.io/badge/Project-Website-blue)](https://lab-rococo-sapienza.github.io/r2f/) 
   [![arxiv paper](https://img.shields.io/badge/arXiv-SOON-red)]()
   [![license](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
   ![flat](https://img.shields.io/badge/python-3.9-green)
