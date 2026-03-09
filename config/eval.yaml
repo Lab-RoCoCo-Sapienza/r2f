@@ -1,0 +1,10 @@
+defaults:
+  - runtime: default
+  - _self_
+
+# Path to results.csv or its parent directory.
+# If null, uses the latest results/**/results.csv.
+csv_path: null
+
+# Print metrics as JSON instead of plain text.
+json: false

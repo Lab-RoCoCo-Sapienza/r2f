@@ -1,0 +1,8 @@
+# @package hydra
+job:
+  chdir: false
+  env_set:
+    HF_HOME: ckpt   # Hugging Face cache dir -- change here to relocate model weights
+output_subdir: null
+run:
+  dir: outputs/${now:%Y-%m-%d_%H-%M-%S}
