@@ -223,3 +223,7 @@ td {
   margin-top: 25px ;
   /* margin-bottom: 100px; */
 }
+
+.section {
+  padding: 1.5rem 1.5rem !important;
+}
