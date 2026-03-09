@@ -1,0 +1,4 @@
+controller:
+  _target_: src.navigation.local_controller.LocalControllerConfig
+config:
+  _target_: src.navigation.navigator.NavigatorConfig

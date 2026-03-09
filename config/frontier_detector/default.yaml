@@ -1,0 +1,5 @@
+_target_: src.mapping.configs.FrontierDetectorConfig
+height_min: 0.3
+height_max: 1.5
+min_unknown_neighbors: 3
+subsample_cell: 0.5

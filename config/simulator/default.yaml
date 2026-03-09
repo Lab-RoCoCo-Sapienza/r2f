@@ -1,0 +1,11 @@
+sensor:
+  _target_: src.simulator.configs.SensorConfig
+  width: 640
+  height: 480
+  hfov: 90.0
+action:
+  _target_: src.simulator.configs.ActionConfig
+  turn_amount: 10.0
+  forward_amount: 0.25
+depth_clip_far: 3.5
+allow_sliding: true

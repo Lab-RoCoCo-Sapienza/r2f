@@ -1,0 +1,4 @@
+_target_: src.rayfront.frontier_regions.FrontierRegionsConfig
+merge_radius: 0.8
+max_range: 3.5
+assoc_max_dist: 14.0   # 4 * max_range

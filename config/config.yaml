@@ -1,0 +1,19 @@
+defaults:
+  - runtime: default
+  - extractor: default
+  - mapping: default
+  - frontier_detector: default
+  - frontier_regions: default
+  - navigator: default
+  - simulator: default
+  - _self_
+
+# Run options
+episodes: ???        # required: "all", "0-9", or "0,5,18"
+seed: 42
+max_steps: 1000
+map_every: 5
+no_viewer: false
+dump: false
+vln: false
+resume: false
