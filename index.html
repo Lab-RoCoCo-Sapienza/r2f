@@ -1,1 +1,272 @@
-R2F site
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Context Matters!">
+  <meta name="keywords"
+    content="Context Matters!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning  </title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+
+</head>
+
+<body>
+   <style>
+        .containeritem {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning  </h1>
+            <h2 class="title is-6 publlication-title">🎉 Paper accepted to <a href="https://2026.ieee-icra.org/">ICRA 2026</a> 🎉</h2>
+            <div class="is-size-6 publication-authors">
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/emanuele-m/"><i>Emanuele Musumeci</i></a><sup>*,1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/michele-brienza-ba0292253/"><i>Michele Brienza</i></a><sup>*,1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/fra-arg/"><i>Francesco Argenziano</i></a><sup>*,1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/hakim-drid/"><i>Abdel Hakim Drid</i></a> <sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/vincenzo-suriani-549429127/"><i>Vincenzo Suriani</i></a> <sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href=""><i>Daniele Nardi</i></a> <sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://web.unibas.it/bloisi/"><i>Domenico Daniele Bloisi</i></a> <sup>3</sup>
+              </span>
+              <br>
+            <div class="is-size-7 publication-authors" style="margin-top: 5px;">
+              <span class="author-block"><sup>*</sup>Equal contribution</span>
+            </div>
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>Sapienza University of Rome</span>
+              <span class="author-block"><sup>2</sup>University of Biskra</span>
+              <span class="author-block"><sup>3</sup>International University of Rome</span>
+              <br>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2506.15828" class="external-link button is-normal ">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2506.15828" class="external-link button is-normal ">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/Lab-RoCoCo-Sapienza/context-matters" class="external-link button is-normal ">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="summary-video">
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">🎥 Summary Video</h2>
+      <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe 
+          src="assets/video.mp4" 
+          frameborder="0" 
+          allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 75%; height: 75%; margin-left: 15%;">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: -8%;" class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-vcentered">
+        <div style="margin-right: 5%;" class="column is-half">
+          <img src="assets/Intro_vertical_sem.png" alt="Architecture" style="width:80%;">
+        </div>
+        <div class="column is-half">
+          <div class="text-image-container title is-3">
+            
+                <p>🌟 Motivations</p>
+            </div>
+
+            <div class="text">
+              <li>Planning in real world is made difficult by the need to ground the robot's 
+                perception of the environment to planning predicates.</li>
+                <li>The strictness of classical planning causes failures even when the task is still 
+                  achievable (up to a certain degree).</li>
+                </li>
+                  <li>LLM partially overcomes this issue thanks to commonsense reasoning, but often
+                  lead to unsafe or incorrect plans.
+                  </li>
+            </div>
+        <div style = "margin-top: 10%" class="text-image-container title is-3">
+
+              <p>📝 Contributions</p>
+          </div>
+
+          <div class="text">
+            <li>
+              A novel contextual goal-relaxation formalism that reasons along two axes (functionality and feasibility)
+              to preserve user intent while yielding executable goals.
+            </li>
+            <li>
+              A planning framework that couples LLM commonsense for goal proposal with classical
+              planning for feasibility validation and plan synthesis.
+            </li>
+            <li>
+              A new dataset of 141 relaxation-prone tasks compatible
+              with popular 3D environments and 3DSGs
+            </li>
+          </div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+  </section>
+  
+  <div style = "margin-top: 3%" class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Methodology</h2>
+      <img style="margin-bottom: 6%;width:70%;" src="assets/methodology_diagram.png" alt="Methodology" >
+      <div   class="text" style="text-align: justify;width: 70%; margin-left: 15%;"> 
+        Our formalism is mainly represented by two operators, the <b>Γ<sub>shift</sub></b>
+      and <b>Δ<sub>rel</sub></b>. <b>Γ<sub>shift</sub></b> represents the situational shifting, namely the operator that adapts the
+      agent's understanding of the operating environment to the core and the planning goal. <b>Δ<sub>rel</sub></b> represents
+      the complexity relaxation operators that is able to produce a more general or comprehensive formulation
+      of the goal. Suppose we have an agent which is able to explore the environment
+      and map every object he found to the corresponding location, effectively creating a <b>3D Scene Graph</b> of
+      the environment. The 3D Scene Graph and the natural language description of the task are given into the architecture as our input.
+      The <b>PDDL</b> problem file is generated by the LLM, while the domain file is either given or generated to. The plan obtained at
+      the current time step is used to attempt grounding the scene. If this step fails, the relaxation mechanism
+      takes place and new PDDL files are generated for the next iteration. In this way, the architecture is
+      able to find the optimal subset of objects needed to achieve the task. Thanks to this bidimensional mechanism,
+      the architecture is able to gradually relax the problem until the least relaxed solution is found.
+      Effectively, what we found is the minimal traverse cost path inside our relaxation graph.
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{musumeci2025context,
+  title={Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning},
+  author={Musumeci, Emanuele and Brienza, Michele and Argenziano, Francesco and Suriani, Vincenzo and Nardi, Daniele and Bloisi, Domenico D},
+  journal={arXiv preprint arXiv:2506.15828},
+  year={2025}
+}
+</code></pre>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website adapted from the <a rel="license"
+              href="https://github.com/concept-graphs/concept-graphs.github.io">Concept-Graph</a> template, which is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+              International License</a>. The template uses the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies
+              source code</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
