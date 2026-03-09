@@ -41,6 +41,7 @@ data/hm3d/val/
   tasks-vln.csv        # VLN tasks with instruction text
   <scene_hash>/
     <scene>.basis.glb  # 3D scene
+    <scene>.glb        # 3D scene with textures
     <scene>.navmesh    # for the path planner
     <scene>.json.gz    # for annotated gt
 ```
