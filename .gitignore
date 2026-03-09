@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+#log
+*.pdf
+*.png
+
+#ckpt
+old_data/
+ckpt/
+debug/
+debug/debug_*
+debug/output/
+results*/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data directories (large files)
+data/
+!data/.gitkeep
+outputs/
+!outputs/.gitkeep
+
+# Checkpoints and models
+*.pth
+*.ckpt
+*.pt
+checkpoints/
+
+# Logs
+logs/
+*.log
+tensorboard/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Open3D auto-saved viewer state
+RenderOption_*.json
+ScreenCamera_*.json
+
+# Scene datasets (large)
+*.glb
+*.navmesh
+*.house
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tar
+*.gz
+test/*
+src/rayfront/frontier_regions.py
+results/*

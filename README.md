@@ -10,7 +10,8 @@ We acknowledge that the submitted version of the paper contains a few formatting
 
 - in the VLN task, our SR value was mistakenly highlighted in bold, whereas it should have been underlined, since it corresponds to the second-best result after VLN-Game.
 
-These mistakes, especially the second one, were entirely unintentional. Notably, despite the formatting error, the discussion in Section IV-D (Results) correctly describes our method as the second-best performer in the VLN task. In that section, we explicitly state that our approach ranks behind VLN-Game.
+These mistakes, were entirely unintentional. Notably, despite the formatting error, the discussion in Section IV-D (Results) correctly describes our method as the second-best performer in the VLN task. In that section, we explicitly state that our approach ranks behind VLN-Game.
+On the left, Table that is currently present in the paper. On the right, the Table without formatting errors.
 
 <p align="center">
   <img src="assets/tab_wrong.png" alt="tab_wrong" width="48%">
