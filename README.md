@@ -21,7 +21,7 @@
   <div align="center">
 
   [![flat](https://img.shields.io/badge/Project-Website-blue)](https://lab-rococo-sapienza.github.io/r2f/) 
-  [![arxiv paper](https://img.shields.io/badge/arXiv-SOON-red)]()
+  [![arxiv paper](https://img.shields.io/badge/arXiv-pdf-red)](https://arxiv.org/pdf/2603.08475)
   [![license](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
   ![flat](https://img.shields.io/badge/python-3.9-green)
   ![flat](https://img.shields.io/badge/Ubuntu-22.04-E95420)
